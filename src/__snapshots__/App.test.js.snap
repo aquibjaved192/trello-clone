@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="card"
+      data-testid="card-container"
+    >
+      <div
+        class="label"
+      >
+        <label
+          class="editLabel"
+          data-testid="label"
+        >
+          Enter Card Name
+        </label>
+      </div>
+      <form>
+        <input
+          class="inputTask"
+          data-testid="taskInput"
+          placeholder="Add Task"
+          required=""
+          type="text"
+          value=""
+        />
+        <button
+          class="addTask"
+          data-testid="addTask"
+          type="submit"
+        >
+          +
+        </button>
+      </form>
+      <div>
+        <button
+          class="delete"
+          data-testid="deleteCard"
+          disabled=""
+        >
+          Delete
+        </button>
+      </div>
+    </div>
+    <div>
+      <button
+        class="addCard"
+        data-testid="addCard"
+      >
+        +
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
